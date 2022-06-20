@@ -1,3 +1,55 @@
+#　タイトル：pixabay APIを活用した画像検索サイト
+
+#　活用したもの
+　
+ フレームワーク
+ ・react.js
+ 
+ ライブラリー
+ 
+ API
+ 
+ ・pixabay API(https://pixabay.com/api/docs/)
+ 
+ 画像パス：largeImageURLから取得
+ 
+ q=**yellow+flowers**&image
+ 
+ 太文字のところをinputに打ち込むと検索できるようにできるようにする
+ 
+ 文字列の箱　[inputText,setInputText]
+ 
+ 
+ 
+ # メモ
+ 
+ inputタグのplaceholder
+ inputboxの中に文字を記載しておける　例：氏名記載など
+ 
+ display: grid; 子要素を格子状に並べる
+ 
+ （今回の記載コード）
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-gap: 160px;
+    
+ useStateのhooks(https://qiita.com/seira/items/f063e262b1d57d7e78b4)
+ 
+ useState()
+ 
+ hooksとは
+ 
+ （https://spice-factory.co.jp/development/react-hooks/#:~:text=%E3%83%95%E3%83%83%E3%82%AF%20(hook)%20%E3%81%AF%20React%2016.8,%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E9%96%A2%E6%95%B0%E3%81%A7%E3%81%99%E3%80%82）
+ 
+ refとuseRef
+ 
+ データフェッチング
+ 
+ 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
