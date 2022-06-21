@@ -41,9 +41,31 @@
  
  （https://spice-factory.co.jp/development/react-hooks/#:~:text=%E3%83%95%E3%83%83%E3%82%AF%20(hook)%20%E3%81%AF%20React%2016.8,%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E9%96%A2%E6%95%B0%E3%81%A7%E3%81%99%E3%80%82）
  
- refとuseRef
+ **refとuseRef
  
  データフェッチング
+ 
+ APIを叩くための関数：fetch
+ 
+ const = endpointURL `pixabayのURL`で定義
+ APIを叩くために
+ APIを叩くための関数：fetch関数を活用
+ 
+ fetch(endpointURL)
+ 
+ 取得できた時、resと言う変数で受け取る
+ 
+ map関数
+ 
+ 
+ https://www.sejuku.net/blog/21812
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
